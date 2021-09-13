@@ -1,12 +1,11 @@
 package com.company;
 
 public class Calculator {
-    public static void calculator(String[] args) {
+    public static int calculator(String[] args) {
         int val1 = Integer.parseInt(args[0]);
         String operator = args[1];
-        int val2 = Integer.parseInt(args[0]);
+        int val2 = Integer.parseInt(args[2]);
         int result = 0;
-        //Scanner scanner= new Scanner(System.in);
 
         switch (operator) {
             case "+":
@@ -25,7 +24,8 @@ public class Calculator {
                 break;
 
         }
-        Parser.parser(result);
+        return result;
+        //Parser.parser(result);
     }
 
 }

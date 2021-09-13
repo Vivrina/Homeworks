@@ -3,21 +3,15 @@ package com.company;
 public class Exception {
     public static void exception(String[] args) {
         if (args.length != 3) {
-            System.out.println("Arg format is: val1 +|-|*|/ val2");
-            System.exit(1);
-            return;
+            throw new ArrayIndexOutOfBoundsException ("Arg format is: val1 +|-|*|/ val2");
         }
         boolean isVal1Int = isInt(args[0]);
         if (!isVal1Int) {
-            System.out.println("Val1 is not int");
-            System.exit(2);
-            return;
+            throw new NumberFormatException ("Val1 is not int");
         }
         boolean isVal2Int = isInt(args[2]);
         if (!isVal2Int) {
-            System.out.println("Val2 is not int");
-            System.exit(2);
-            return;
+            throw new NumberFormatException ("Val2 is not int");
         }
         String operator = args[1];
         if ("+".equals(operator) ||
@@ -25,9 +19,7 @@ public class Exception {
                 "/".equals(operator) ||
                 "*".equals(operator)) {
         } else {
-            System.out.println("Operator not found");
-            System.exit(3);
-            return;
+            throw new NumberFormatException ("Operator not found");
         }
 
     }
