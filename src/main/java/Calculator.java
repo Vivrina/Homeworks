@@ -1,5 +1,3 @@
-package com.company;
-
 public class Calculator {
     public static int calculator(String[] args) {
         int val1 = Integer.parseInt(args[0]);

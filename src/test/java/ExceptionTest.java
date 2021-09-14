@@ -1,10 +1,4 @@
-package com.company;
-
-import com.sun.deploy.util.StringUtils;
-import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class ExceptionTest {
 

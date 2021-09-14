@@ -1,5 +1,3 @@
-package com.company;
-
 public class Exception {
     public static void exception(String[] args) {
         if (args.length != 3) {
