@@ -1,5 +1,5 @@
 public class Exception {
-    public static void exception(String[] args) {
+    public static boolean exception(String[] args) {
         if (args.length != 3) {
             throw new ArrayIndexOutOfBoundsException ("Arg format is: val1 +|-|*|/ val2");
         }
@@ -16,6 +16,7 @@ public class Exception {
                 "-".equals(operator) ||
                 "/".equals(operator) ||
                 "*".equals(operator)) {
+            return true;
         } else {
             throw new NumberFormatException ("Operator not found");
         }

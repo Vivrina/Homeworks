@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 
 public class ExceptionTest {
@@ -22,5 +23,18 @@ public class ExceptionTest {
         String[] args = {"2", "+", "Num"};
         Exception.exception(args);
     }
+
+    @Test
+    public void exception_fjrjf(){
+        String[] args1 = {"4", "+", "2"};
+        String[] args2 = {"4", "-", "2"};
+        String[] args3 = {"4", "*", "2"};
+        String[] args4 = {"4", "/", "2"};
+        if (Exception.exception(args1) && Exception.exception(args2) && Exception.exception(args3) && Exception.exception(args4)){
+            Assert.assertTrue(true);
+        }
+
+    }
+
 
 }

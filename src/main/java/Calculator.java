@@ -18,8 +18,6 @@ public class Calculator {
             case "*":
                 result = val1 * val2;
                 break;
-            default: result = 0;
-                break;
 
         }
         return result;
