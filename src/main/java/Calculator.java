@@ -1,5 +1,5 @@
 public class Calculator {
-    public static int calculator(String[] args) {
+    public static int calculate(String[] args) {
         int val1 = Integer.parseInt(args[0]);
         String operator = args[1];
         int val2 = Integer.parseInt(args[2]);

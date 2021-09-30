@@ -1,10 +1,11 @@
 public class Main {
 
-    public static boolean main(String[] args) {
-	// write your code here
-        Exception.exception(args);
-        System.out.println(Parser.parser(Calculator.calculator(args)));
-        return true;
+
+
+    public static void main(String[] args) {
+        Parser.parser(args);
+        System.out.println("Result is:" + Calculator.calculate(args));
+
     }
 
 }

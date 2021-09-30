@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="CalculatorTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="CalculatorTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2020.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,7 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="CalculatorTest" name="div_40Divide5_8Returned" time="0.004"/>
+  <testcase classname="CalculatorTest" name="div_40Divide5_8Returned" time="0.003"/>
   <testcase classname="CalculatorTest" name="sum_2Plus5_7Returned" time="0"/>
   <testcase classname="CalculatorTest" name="sub_10Minus5_5Returned" time="0"/>
   <testcase classname="CalculatorTest" name="mult_3Multiply2_6Returned" time="0"/>

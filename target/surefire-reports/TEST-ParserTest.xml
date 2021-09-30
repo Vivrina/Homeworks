@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="ParserTest" time="0" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="ParserTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2020.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,5 +64,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ParserTest" name="parser_8Returned" time="0"/>
+  <testcase classname="ParserTest" name="parser_995_NumberFormatExceptionReturned" time="0"/>
+  <testcase classname="ParserTest" name="parser_PlusMinusMultiplyDivide_TrueReturned" time="0"/>
+  <testcase classname="ParserTest" name="parser_2Plus5Plus9_ArrayIndexOutOfBoundsExceptionReturned" time="0"/>
+  <testcase classname="ParserTest" name="parser_NumPlus5_NumberFormatExceptionReturned" time="0"/>
+  <testcase classname="ParserTest" name="parser_2PlusNum_NumberFormatExceptionReturned" time="0"/>
+  <testcase classname="ParserTest" name="parser_6Divide0_ArithmeticExceptionReturned" time="0"/>
 </testsuite>
